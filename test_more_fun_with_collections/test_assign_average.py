@@ -26,6 +26,11 @@ class MyTestCase(unittest.TestCase):
         score3 = 60
         result3 = 60
         self.assertEqual(result3, switch_average(grade3), score3)
+      def test_F_switch_average(self):
+        grade3 = "F"
+        score3 = 60
+        result3 = 60
+        self.assertEqual(result3, switch_average(grade3), score3)
 
 
 if __name__ == '__main__':
