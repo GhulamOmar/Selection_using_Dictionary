@@ -1,6 +1,8 @@
 import unittest
 from more_fun_with_collections.assign_average import switch_average
 
+""" test file for assign_average.py"""
+
 
 class MyTestCase(unittest.TestCase):
     def test_A_switch_average(self):
