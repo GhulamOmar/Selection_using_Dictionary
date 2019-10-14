@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
     def test_A_switch_average(self):
         grade = "A"
         score = 100
-        result = 1001
+        result = 100
         self.assertEqual(result, switch_average(grade), score)
 
     def test_B_switch_average(self):
